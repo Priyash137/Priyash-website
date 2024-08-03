@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyash Web Page</title>
+    <style>
+        /* CSS goes here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          }
+          footer{
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+             }
+    </style>
+</head>
+<body>
+    <header>
+        <h1> My Love Helen</h1>
+    </header>
+    
+    <nav>
+        <a href="#home">My Helen</a>
+        <a href="#about">Grateful</a>
+        <a href="#contact">Love</a>
+    </nav>
+<div class="content" id="home">
+        <h2>My Helen</h2>
+        <p>My Love Pratima. I Love you with all my hearts. You are everything to me. You are my Helen, light of my world .</p>
+    </div>
+
+    <div class="content" id="about">
+        <h2>Grateful</h2>
+        <p>I'm so grateful to have you in my life. You are my forever and always. My heart is yours, always. Thank you for being with me in every situation.</p>
+    </div>
+
+    <div class="content" id="contact">
+        <h2>Love</h2>
+        <p>You are my souldmate. You complete me. I know i break your hearts and make you sad sometimes but that was not my intension and i will try to improve and be better.</p>
+    </div>
+
+    <footer>
+        <p>&copy; Your Love Priyash</p>
+    </footer>
+</body>
